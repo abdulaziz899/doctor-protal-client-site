@@ -1,0 +1,25 @@
+.contactDetails{
+    width: 60%;
+    height: 100%;
+    padding: 10px;
+    margin: 0px auto;
+    border: 1px solid rgb(232, 232, 240);
+    margin-bottom: 40px ;
+}
+.contactDetailContainer{
+    background-image: url('../../../images/Mask\ Group\ 2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(15, 15, 15);
+    opacity: .7;
+}
+.contactDetails button {
+    width: 30%;
+    margin-left: 35%;
+}
+@media(max-width:700px){
+    .contactDetails{
+        width: 100%;
+    }
+}

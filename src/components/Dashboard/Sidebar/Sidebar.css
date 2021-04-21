@@ -1,0 +1,12 @@
+.sidebarContainer p:hover{
+    background-color: blue;
+    color: aliceblue;
+    width: 100%;
+}
+.sidebarContainer p{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}

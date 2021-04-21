@@ -1,0 +1,15 @@
+.fontIcon{
+    font-size: 35px;
+    color: rgb(59, 108, 151);
+}
+.doctorDetail{
+    border: 2px solid lavenderblush;
+    border-radius: 20px;
+    background-color: rgb(189, 192, 194);
+    padding: 10px;
+    transition: ease-in-out 1s;
+}
+.doctorDetail:hover{
+    transform: rotateY(40deg);
+    background-color: aqua;
+}

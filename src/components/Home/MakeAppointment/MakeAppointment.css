@@ -1,0 +1,42 @@
+.makeAppointment {
+    height:420px;
+    background-image: url('../../../images/Mask\ Group\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    background-position: center center;
+
+}
+
+.makeAppointment::before {
+    height:100%;
+    width: 100%;
+    content:' ';
+    position: absolute;
+    top: 0;
+    background-color:  #3A4256;
+    opacity: .8;
+    left: 0;
+
+}
+.makeAppointment img{
+    height: 550px;
+    transform: translateY(-130px);
+}
+.makeAppointmentContainer{
+    width: 100%;
+    height: 55%;
+
+}
+
+@media(max-width:800px ){
+    .makeAppointmentContainer{
+        margin-top: 600px;
+        margin-bottom: 500px;
+    }
+}
+@media(max-width:500px ){
+    .makeAppointmentContainer{
+        margin-bottom: 700px;
+    }
+}
